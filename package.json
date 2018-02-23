@@ -1,0 +1,22 @@
+{
+  "name": "hyper-bulma-clean",
+  "version": "1.0.0",
+  "description": "A starter project for using Hyperapp with Bulma CSS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "repository": "https://github.com/cutemachine/hyper-bulma-clean.git",
+  "author": "jo@cutemachine.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.6.2"
+  },
+  "dependencies": {
+    "@hyperapp/router": "^0.4.1",
+    "hyperapp": "^1.1.2"
+  }
+}
